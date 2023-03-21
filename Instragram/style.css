@@ -1,0 +1,434 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: rgb(0, 0, 0);
+    justify-content: center;
+    display:block;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    /* background: #5b90be; */
+}
+
+.left-side{
+    width: 13%;
+    float: left;
+    border-right: 2px solid rgb(59, 59, 59);;
+}
+
+.upper{
+    width: 100%;
+    height: 85px;
+    padding: auto;
+}
+
+.i-logo{
+    margin-top: 40px;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+}
+
+.i-logo:hover {
+    cursor: pointer;
+}
+
+.middle{
+    width: 100%;
+    height: 800px;
+}
+
+.function{
+    width: 12%;
+    position:absolute;
+    margin-left: 10px;
+}
+
+.f-box{
+    width: 95%;
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+.f-box:hover {
+    cursor: pointer;
+    background-color: rgb(39, 41, 41);
+}
+
+
+.f-logo {
+    width: 45px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;   
+}
+
+.f-name{
+    color:#ffffffe0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.f-logo img{
+    width: 25px;
+    height: 25px;
+}
+
+#Profile img{
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
+.lower{
+    width: 100%;
+    height: 80px;
+}
+
+.right-side{
+    position: relative;
+    padding: 30px;
+    margin-top: 20px;
+    float: left;
+    height: auto;
+    width: 87%;
+}
+
+.right-side1{
+    position: relative;
+    float: left;
+    height: auto;
+    width: 31%;
+    margin-left: 355px;
+}
+
+.stories{
+    display: flex;
+    justify-content:space-between;
+    width: 480px;
+    height: 100px;
+}
+
+.stories-img{
+    font-size: 13px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: white;
+    border: 3px solid #e2336b;
+}
+
+.stories-img:hover{
+    cursor: pointer;
+}
+
+.stories-img img{
+    margin-top: 2.5px;
+    margin-left: 1px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
+.id-name{
+    margin-top: 10px;
+}
+
+.next{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 445px;
+}
+
+.next img{
+    height: 25px;
+    width: 25px;
+}
+
+.next:hover{
+    cursor: pointer;
+}
+
+.reels{
+    display: flex;
+    width: 480px;
+    height: auto;
+}
+
+.profile{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.p-box{
+    width: 90%;
+    float: left;
+}
+
+.icon img:hover{
+    cursor: pointer;
+    color: rgb(89, 94, 94);;
+}
+
+.photo{
+    color:#ffffffe0;
+    width: 220px;
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.icon img{
+    width: 20px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.span1 {
+    position: relative;
+    float: left;
+    margin-bottom: 14px;
+    margin-right: 10px;
+}
+
+.span1:hover {
+    cursor: pointer;
+}
+
+.span2:hover {
+    cursor: pointer;
+    color: rgb(89, 94, 94);
+}
+
+.span1 img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
+.p1{
+    font-size: 12px;
+}
+
+li{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+
+.create{
+    position: absolute;
+    margin-top: 90px;
+    width: 480px;
+    height: auto;
+}
+
+.c-box img{
+    height: 570px;
+    width: 480px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.react{
+    display: flex;
+    justify-content:space-between;
+    width: 105px;
+    height: 50px;
+    margin-top: 580px;
+}
+
+.react-img img{
+    margin-top: 15px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.react-img img:hover{
+    cursor: pointer;
+}
+
+.save{
+    position:absolute;
+    margin-left: 350px;
+}
+
+.comment{
+    margin-top: 5px;
+    line-height: 20px;
+    color: white;
+}
+
+.p2{
+    line-height: 25px;
+    color: rgb(133, 130, 130);
+}
+
+.smile{
+    position: absolute;
+    margin-left: 330px;
+}
+
+.smile img{
+    height: 20px;
+    width: 20px;
+}
+
+.smile img:hover{
+    cursor: pointer;
+}
+
+.right-side2{
+    position:absolute;
+    float: left;
+    height: auto;
+    width: 25%;
+    margin-left: 900px;
+}
+
+.profile2{
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.profile2:hover{
+    cursor: pointer;
+}
+
+.account{
+    width: 80%;
+    float: left;
+}
+
+.photo2{
+    color:#ffffffe0;
+    width: 320px;
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.span3 {
+    position: relative;
+    float: left;
+    margin-bottom: 14px;
+    margin-right: 10px;
+}
+
+.photo2 img{
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+
+.name{
+    width: 160px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.blue-btn{
+    color: rgb(57, 57, 211);
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 33px;
+}
+
+.suggest{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.p3{
+    color: rgb(133, 130, 130);
+    margin-left: 5px;
+}
+
+.p4{
+    color: white;
+    margin-left: 205px;
+}
+
+.p4:hover{
+    color: rgb(133, 130, 130);
+}
+
+#blue-btn:hover{
+    color: rgb(133, 130, 130);
+}
+
+.suggest-profile{
+    width: 99%;
+    height: 60px;
+    display: flex;
+    margin-left: 5px;
+}
+
+.suggest-profile:hover{
+    cursor: pointer;
+}
+
+.s-box{
+    width: 90%;
+    float: left;
+}
+
+.photo3{
+    color:#ffffffe0;
+    width: 260px;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.p5{
+    font-size: 12px;
+    color: rgb(133, 130, 130);
+}
+
+#blue-btn{
+    color: rgb(57, 57, 211);
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 33px;
+}
+
+.info{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.copy-right{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
